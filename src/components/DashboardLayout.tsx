@@ -101,6 +101,20 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
             <LogOut className="w-5 h-5" />
             <span>Logout</span>
           </button>
+            <button
+    onClick={() => {
+      if (window.confirm("Are you sure you want to revert to the original portal? Your current dashboard changes will be lost.")) {
+        window.location.href = "https://amaravaticrda.org/";
+      }
+    }}
+    className="flex items-center gap-3 px-4 py-3 w-full rounded-lg text-amber-600 hover:bg-amber-50 transition-colors font-medium border border-amber-200 mt-2"
+  >
+    {/* You can use an icon like this, or add your own */}
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+    </svg>
+    <span>Back to website</span>
+  </button>
         </div>
       </aside>
 
