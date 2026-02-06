@@ -58,7 +58,7 @@ const Login = () => {
           <div className="flex-shrink-0 flex items-center justify-between px-6 md:px-10 pt-8 md:pt-10">
             
           {/* Logo 1 - LEFT SIDE (Big) */}
-            <div className="h-56 md:h-60 w-88 overflow-hidden">
+            <div className="h-40 md:h-44 w-88 overflow-hidden">
               <img 
                 src="/logos.png" 
                 alt="Government Logo"
