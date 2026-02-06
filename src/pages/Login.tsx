@@ -78,7 +78,7 @@ const Login = () => {
 
           {/* Centered Login Form - Takes available space */}
           <div className="flex-1 flex items-center justify-center p-4 md:p-6 min-h-0">
-            <div className="w-full max-w-md mx-auto scale-150">
+            <div className="w-full max-w-md mx-auto scale-110">
               <div className="text-center mb-6">
                 <h1 className="text-4xl font-bold text-gray-800 mb-2">
                   Amaravati citizen portal
