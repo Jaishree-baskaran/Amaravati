@@ -44,7 +44,7 @@ const Login = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         {/* Simple title on image */}
         <div className="absolute bottom-12 left-0 right-0 text-center text-white px-8">
-          <h1 className="text-3xl font-bold mb-2">అమరావతి దిగిసేవ</h1>
+          <h1 className="text-3xl font-bold mb-2">అమరావతి డిజిటల్</h1>
           <p className="text-lg opacity-90">Amaravati Digital Services Portal</p>
           <p className="text-sm opacity-80 mt-2">Future Capital of Andhra Pradesh</p>
         </div>
