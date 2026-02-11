@@ -78,7 +78,6 @@ const Dashboard = () => {
         {[
           { label: 'Properties', value: '3', icon: Building2, trend: '+1 new' },
           { label: 'Schemes', value: '5', icon: TrendingUp, trend: 'Active' },
-          { label: 'Documents', value: '12', icon: FileText, trend: 'Available' },
           { label: 'Notifications', value: '4', icon: Bell, trend: 'Unread' },
         ].map((stat) => (
           <div key={stat.label} className="gov-card">
