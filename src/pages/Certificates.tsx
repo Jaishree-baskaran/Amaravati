@@ -12,7 +12,7 @@ const Certificates = () => {
               Certificates & Schemes
             </h1>
             <p className="text-muted-foreground">
-              View and download your certificates, scheme enrollments, and insurance records
+              View your certificates and scheme enrollments
             </p>
           </div>
         </div>
