@@ -66,10 +66,6 @@ const PropertyRecords = () => {
               View and download your property and land records
             </p>
           </div>
-          <GovButton variant="secondary">
-            <Download className="w-4 h-4" />
-            Download All
-          </GovButton>
         </div>
       </div>
 
