@@ -66,7 +66,7 @@ const Dashboard = () => {
       {/* Welcome Section */}
       <div className="mb-8">
         <h1 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-2">
-          Welcome Back!
+          Welcome Ramesh!
         </h1>
         <p className="text-muted-foreground">
           Access your government records and services from one place
