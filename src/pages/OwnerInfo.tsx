@@ -121,10 +121,6 @@ const OwnerInfo = () => {
             <Users className="w-5 h-5 text-primary" />
             Family Members
           </h3>
-          <GovButton size="sm" variant="outline">
-            <Download className="w-4 h-4" />
-            Export
-          </GovButton>
         </div>
         
         <div className="overflow-x-auto">
