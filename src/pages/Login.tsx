@@ -67,13 +67,6 @@ const Login = () => {
               />
             </div>
             {/* Logo 2 - RIGHT SIDE (Big) */}
-            <div className="h-24 md:h-28 w-48 overflow-hidden">
-              <img 
-                src="/redbay.png" 
-                alt="Amaravathi Logo"
-                className="w-full h-full object-contain"
-              />
-            </div>
           </div>
 
           {/* Centered Login Form - Takes available space */}
